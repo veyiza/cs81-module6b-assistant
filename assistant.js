@@ -32,12 +32,14 @@ myAssistant.addTask("Finish homework");
 myAssistant.addTask("Clean my room");
 myAssistant.addTask("Hangout with friends");
 
+// Mood before doing work
 myAssistant.mood = "motivated";
 myAssistant.reportMood();
 
 myAssistant.completeTask();
 myAssistant.completeTask();
 
+// Mood after 
 myAssistant.mood = "tired";
 myAssistant.reportMood();
 
